@@ -1,9 +1,10 @@
 header {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
-  align-items: end;
-  border-bottom: .3rem solid darkgrey;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  align-items: start;
+  border-bottom: .5rem solid darkgrey;
+  justify-content: center;
 }
 
 h1 {
@@ -19,5 +20,5 @@ nav {
 nav a {
   text-decoration: none;
   color: darkgrey;
-  font-size:
+  font-size: 20px;
 }
